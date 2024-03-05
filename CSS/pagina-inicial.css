@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#color01{
+    color: #24FF00;
+}
+
+#color02{
+    color: #FF9900;
+}
+
+#color03{
+    color: #00D1FF;
+}
+
+#color01,#color02,#color03,#enquete01{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 24px;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2.5px black;
+}
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Cherry Bomb One', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #DFAE00;
+    z-index: 1;
+}
+.header-esquerda{
+    display: flex;
+
+}
+.header-direita{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+    margin-right: 5%;
+}
+
+.fundo{
+    width: 100%;
+    height: 1024px;
+    background-image: url("../imginicial/imgvovo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fundo article{
+    position: relative;
+    width: 38%;
+    height:50%;
+    margin: 15% 0  0 60%;
+    padding: 30px 15px;
+    background-color: rgba(15, 14, 70, 0.800);
+    border-radius: 30px;
+    border: 10px solid #3F76C8;
+    text-shadow: 2px 2px 2.5px #7270FF;
+}
+article p{
+    font-size: 40px;
+    font-weight: 400;
+    margin: 3% 5%;
+    text-align: center;
+    color: #fff;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 350px;
+    background-color: #DFAE00;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.footer-esquerda, .footer-direita{
+    font-size: 28px;
+    color: white;
+    text-shadow: 2px 2px 2.5px #000;
+}
+.footer-esquerda{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+.footer-esquerda div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-direita{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.footer-direita div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    width: 100%;
+    height: 40px;
+}
+
+h3{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    font-size: 35px;
+}
+#enquete02{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 33px;
+}
+.copyright{
+    position: relative;
+    background-color: 
+    #BB9308;
+    width: 100%;
+    height: 15%;
+    padding-left: 5%;
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 2.5px #000;
+}
